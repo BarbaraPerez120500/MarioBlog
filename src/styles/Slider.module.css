@@ -1,0 +1,57 @@
+.container {
+ width: 100%;
+ height: 50vh;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ align-items: center;
+ position: relative;
+ overflow: hidden;
+}
+
+.slide {
+ max-width: 100%;
+ height: 100%;
+ opacity: 0;
+ transition: opacity 0.75s ease-in-out;
+ position: absolute;
+ width: 100%;
+}
+
+.slide img {
+ width: 100%;
+ height: auto;
+ object-fit: contain;
+}
+
+.slide.active {
+ opacity: 1;
+}
+
+.botbanneruno {
+ background-color: #ff0004; /* color de fondo */
+ color: white; /* color del texto */
+ padding: 15px 32px; /* espacio de relleno */
+ text-align: center; /* centrar el texto */
+ text-decoration: none; /* sin decoración de texto */
+ display: inline-block; /* mostrar como un elemento en línea */
+ font-size: 1rem; /* tamaño de fuente */
+ margin: 4px 2px; /* margen */
+ cursor: pointer; /* cursor de tipo puntero */
+ border-radius: 12px; /* radio del borde */
+ z-index: 2;
+}
+
+.botbannerdos {
+ background-color: #ff0004; /* color de fondo */
+ color: white; /* color del texto */
+ padding: 15px 32px; /* espacio de relleno */
+ text-align: center; /* centrar el texto */
+ text-decoration: none; /* sin decoración de texto */
+ display: inline-block; /* mostrar como un elemento en línea */
+ font-size: 1rem; /* tamaño de fuente */
+ margin: 4px 2px; /* margen */
+ cursor: pointer; /* cursor de tipo puntero */
+ border-radius: 12px; /* radio del borde */
+ z-index: 2;
+}
