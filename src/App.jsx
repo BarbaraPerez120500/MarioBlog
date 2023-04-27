@@ -4,7 +4,7 @@ import Slider from "./components/Slider";
 import Posts from "./components/Posts";
 import UserContext from "./context/User";
 import Admin from "./components/Admin";
-
+import Footer from "./components/Footer";
 
 
 const marioImagenes = [
@@ -22,6 +22,7 @@ const App = function () {
       <Navbar />
       <Slider imagenes={marioImagenes} />
       {!user || user.roll != "admin" ? <Posts /> : <Admin />}
+      <Footer />
     </>
   );
 };
