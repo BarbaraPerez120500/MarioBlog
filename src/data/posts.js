@@ -1,20 +1,38 @@
 const PostsData = [];
 PostsData.push({
   id: 1,
-  title:
-    "LOS ESTRENOS MÁS DESTACADOS DE NETFLIX, DISNEY+ Y HBO MAX (DEL 21 AL 28 DE SEPTIEMBRE)",
+  title: "¡Descubre al villano más querido del Reino Champiñón!",
   content:
-    "Semana a semana Netflix, Disney+ y Hbo Max renuevan su catálogo de contenidos con nuevos títulos para las diferentes audiencias. Repasamos cuáles son los estrenos más destacados en materia de streaming del 21 al 28 de septiembre.",
-  tags: ["steaming", "netflix", "disney+", "hbo max"],
-  image: "../public/Logo.png",
+    "Él es grande. Él es malo. Él es conocido por escupir fuego. ¡Él es Bowser! En los videojuegos, cada gran héroe necesita a un gran villano. Por suerte (o por desgracia) para Mario, por 35 años Bowser ha estado más que dispuesto a ocasionar algunos conflictos en el Reino Champiñón. Aunque el granuja más conocido del Reino Champiñón no siempre tiene la mejor actitud, él y Mario han formado equipo en algunas ocasiones. Mira la lista de abajo para descubrir algunos juegos donde Bowser ha sido amigo, enemigo y el padre* de Bowser Jr. ",
+  tags: ["Bowser", "Mario", "Peach", "Luigi"],
+  image:
+    "https://assets.nintendo.com/image/upload/dpr_auto/q_auto/f_auto/c_pad,w_744/ncom/en_US/articles/2023/meet-the-mushroom-kingdoms-most-lovable-rabble-rouser/2250x1266_Switch_News_GamesWithBowser",
 });
 PostsData.push({
   id: 2,
-  title: "NOVEDADES DE LAS PRODUCCIONES LATINAS DE NETFLIX",
+  title:
+    "La fase 2 de ofertas del Día de MAR10 brinda descuentos en juegos seleccionados de Mario y sus amigos",
   content:
-    "Este año llegará una gran variedad de series y películas latinoamericanas a Netflix, que a través de un evento para la prensa, reveló detalles de los títulos en desarrollo. Entre las producciones argentinas se encuentran la segunda temporada de El reino que ya comenzó con las grabaciones y El amor después del amor, la bioserie de Fito Páez.",
-  tags: ["steaming", "netflix", "argentina"],
+    " El 10 de marzo se conoce como el Día de Mario (o Día de MAR10), ¡pero todos los días pueden ser días de Mario con la consola Nintendo Switch™! La fase 2 de la promoción brinda ofertas en los siguientes juegos de Mario y sus amigos:" +
+    "Del 24/3 a las 00:00 al 7/4 a las 23:59 (horario del Pacífico):" +
+    "Mario Kart™ 8 Deluxe" +
+    "Mario Kart™ 8 Deluxe + Mario Kart™ 8 Deluxe - Booster Course Pack*" +
+    "Super Mario Odyssey™" +
+    "New Super Mario Bros.™ U Deluxe" +
+    "Super Mario Maker™ 2" +
+    "Super Mario™ 3D World + Bowser’s Fury",
+  tags: ["Super Mario", "Games", "Ofertas"],
   image:
-    "https://spinofftv.ar/wp-content/uploads/2022/04/COLLAGE_EDITABLE_V3-scaled.jpg",
+    "https://assets.nintendo.com/image/upload/dpr_auto/q_auto/f_auto/c_pad,w_744/ncom/en_US/merchandising/Sales%20and%20Deals/2023/001-NOA/MAR10%20Day/Wave%202/03-ES/Ncom_2250x1266_whats_new",
+});
+
+PostsData.push({
+  id: 3,
+  title: "¡Descubre al villano más querido del Reino Champiñón!",
+  content:
+    "Él es grande. Él es malo. Él es conocido por escupir fuego. ¡Él es Bowser! En los videojuegos, cada gran héroe necesita a un gran villano. Por suerte (o por desgracia) para Mario, por 35 años Bowser ha estado más que dispuesto a ocasionar algunos conflictos en el Reino Champiñón. Aunque el granuja más conocido del Reino Champiñón no siempre tiene la mejor actitud, él y Mario han formado equipo en algunas ocasiones. Mira la lista de abajo para descubrir algunos juegos donde Bowser ha sido amigo, enemigo y el padre* de Bowser Jr. ",
+  tags: ["Bowser", "Mario", "Peach", "Luigi"],
+  image:
+    "https://assets.nintendo.com/image/upload/dpr_auto/q_auto/f_auto/c_pad,w_744/ncom/en_US/articles/2023/meet-the-mushroom-kingdoms-most-lovable-rabble-rouser/2250x1266_Switch_News_GamesWithBowser",
 });
 export default PostsData;

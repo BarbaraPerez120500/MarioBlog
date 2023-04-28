@@ -17,6 +17,7 @@
   border: none;
   outline: none;
   width: 7rem;
+  cursor: pointer;
 }
 
 .activate button {
@@ -33,6 +34,8 @@
   border: none;
   outline: none;
   width: 7rem;
+  cursor: pointer;
+  border-radius: 1rem;
 }
 
 .login {
@@ -88,8 +91,8 @@
 
 .login button[type="button"] {
   position: absolute;
-  top: 1rem;
-  right: 1rem;
+  top: 5rem;
+  right: 0rem;
   background-color: #e02b20;
   color: snow;
   text-transform: uppercase;

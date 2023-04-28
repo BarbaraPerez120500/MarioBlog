@@ -7,33 +7,37 @@
  color: aliceblue;
  
 } */
-
-.infovideo h1{
- text-align: center;
- font-size: 2.5rem;
+.video iframe {
+  display: flex;
+  justify-content: center;
+}
+.infovideo h1 {
+  text-align: center;
+  font-size: 2.5rem;
 }
 
-.infovideo p{
- color: black;
-
+.infovideo p {
+  color: black;
 }
 
-.infovideo button{
- cursor: pointer;
- overflow: red;
+.infovideo button {
+  cursor: pointer;
+  overflow: red;
 }
 
-.infovideo a{
- border: 1em;
- padding: 1rem;
- border-radius: 1em;
- background-color: rgb(9, 2, 84);
- text-decoration: none;
- box-sizing: border-box;
- text-align: center;
-
+.infovideo a {
+  border: 1em;
+  padding: 1rem;
+  border-radius: 1em;
+  background-color: rgb(9, 2, 84);
+  text-decoration: none;
+  box-sizing: border-box;
+  text-align: center;
 }
 
-.video{
- height: 50vw;
+.video {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
 }

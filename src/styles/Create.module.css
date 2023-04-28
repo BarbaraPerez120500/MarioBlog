@@ -1,6 +1,7 @@
 .create {
-  width: 25vw;
+  width: 60vw;
   display: flex;
+  align-items: center;
   background-color: #d0d5dd;
   color: black;
   flex-direction: column;

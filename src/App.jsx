@@ -6,9 +6,7 @@ import UserContext from "./context/User";
 import Admin from "./components/Admin";
 import Footer from "./components/Footer";
 
-
 const marioImagenes = [
-
   "../public/Mpeach2.jpeg",
   "../public/Peach.jpeg",
   "../public/Mario.jpeg",

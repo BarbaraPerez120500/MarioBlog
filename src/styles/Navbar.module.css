@@ -10,45 +10,29 @@
   height: 10vh;
 } */
 
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: self-end;
-  width: 100%;
-}
-
 .menu {
   display: flex;
   justify-content: center;
+  gap: 2rem;
   background-image: url("../../public/Mariologo.svg");
-  height: 200px;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 100vw;
+  height: 27vh;
+  width: 100vw;
+  align-items: end;
+  margin-bottom: 1rem;
 }
 
-ul {
-  display: flex;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  justify-content: center;
-  gap: 10px; /* ajusta la separación horizontal entre los elementos */
-}
-
-a {
-  display: block;
-  padding: 10px;
-}
-
-button {
+.menu a {
   background-color: #ff0004;
   color: white;
-  padding: 10px 20px;
+  padding: 0.7rem 1.3rem;
   text-align: center;
   display: inline-block;
-  font-size: 20px;
+  font-size: 1.5rem;
   cursor: pointer;
   border-radius: 0.5rem;
   width: 10rem;
+  height: 4rem;
+  text-decoration: none;
 }
-
