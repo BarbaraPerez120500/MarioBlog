@@ -51,7 +51,7 @@ const User = function () {
                   setModal(false);
                 }}
               >
-                exit
+                Salir
               </button>
               <fieldset>
                 <label htmlFor="username">Usuario</label>

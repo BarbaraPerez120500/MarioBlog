@@ -5,9 +5,10 @@ function Footer() {
   return (
     <>
       <section className={FooterStyle.video}>
+        <h1>TRAILER PELICULA 2023</h1>
         <iframe
-          width="1260"
-          height="615"
+          width="1280"
+          height="600"
           src="https://www.youtube.com/embed/8YQM6VlfiqM"
           title="YouTube video player"
           frameborder="0"
@@ -16,13 +17,12 @@ function Footer() {
         ></iframe>
 
         <article className={FooterStyle.infovideo}>
-          <h1>TRAILER PELICULA 2023</h1>
-          <p>
-            Mira el video y no te pierdas de lo nuevo de mario bross y nintendo
-          </p>
           <a href="https://www.youtube.com/watch?v=Yo-fQiQrOtA&t=33s">
             ver pelicula
           </a>
+          <p>
+            Mira el video y no te pierdas de lo nuevo de mario bross y nintendo
+          </p>
         </article>
 
         <footer className={FooterStyle.footer}>
@@ -31,9 +31,9 @@ function Footer() {
           <i class="fa-brands fa-twitter"></i>
           <i class="fa-brands fa-youtube"></i>
           <i class="fa-brands fa-instagram"></i>
-          <p>copyright. © 2023</p>
-          <p>Diseñado por MARScript</p>
         </footer>
+        <p>Diseñado por MARScript</p>
+        <p>copyright. © 2023</p>
       </section>
     </>
   );

@@ -14,7 +14,6 @@
   font-weight: 700;
   font-family: "Tilt Neon", display;
   font-size: 1rem;
-  border: none;
   outline: none;
   width: 7rem;
   cursor: pointer;
@@ -80,25 +79,27 @@
   font-family: "Catamaran", sans-serif;
 }
 .login button[type="submit"] {
-  background-color: #e02b20;
+  background-color: #1d3d97;
   color: snow;
   font-size: 1rem;
   text-transform: uppercase;
   padding: 0.5rem 0.5rem;
   font-weight: 700;
   font-family: "Tilt Neon", display;
+  border-radius: 0.5rem;
 }
 
 .login button[type="button"] {
   position: absolute;
-  top: 5rem;
-  right: 0rem;
+  top: 1rem;
+  right: 2rem;
   background-color: #e02b20;
   color: snow;
   text-transform: uppercase;
   padding: 0.5rem 0.5rem;
   font-weight: 700;
   font-family: "Tilt Neon", display;
-  width: 8rem;
+  width: 7rem;
   font-size: 1rem;
+  border-radius: 1rem;
 }
