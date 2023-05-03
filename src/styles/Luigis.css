@@ -1,13 +1,22 @@
 .App {
-    text-align: 10rem;
-    background: url(https://i.pinimg.com/564x/0c/39/ff/0c39ff7a5a7561819709f1b22e5f823e.jpg)  center right  ;
-   
-  }
-  
-  
-  
-  
-  
+  text-align: 10rem;
+  background: url(https://i.pinimg.com/564x/0c/39/ff/0c39ff7a5a7561819709f1b22e5f823e.jpg)
+    center right;
+}
+
+.tituloh1 {
+  text-align: center;
+}
+.tituloh2 {
+  text-align: center;
+  position: absolute;
+  margin-left: 40%;
+  margin-top: 2rem;
+}
+.tituloh3 {
+  text-align: center;
+}
+/*   
   h1{
 
    text-align: center;
@@ -23,181 +32,165 @@
   }
   
   h3{
-    text-align: center;
-  }
-  
-  .menu1 {
-  
-    align-items: center;
-    display:inline-flex;
-    margin-top: 10%;
-    margin-left: 10%;
-    width: 80vw;
-    height: 5vw;
-    margin-right: 20px;
     
-  }
-  
-  .menu1 .pers {
-    height: 50vh;
-    align-items: center;
-    flex-grow:  1;
-    object-fit: cover;
-    opacity: .8;
-    transition: 0.5s ease;
-    position: relative;
-  }
-   .menu1 .pers:hover {
-    height: 30vw;
-    opacity: 0.8;
-  
-  
-  }
-  
-  
-  .hola {
-    background-color: rgb(193, 163, 197);
-    height: 60vh;
-    border: 1px solid rgb(168, 168, 189);
-   
-    
-  }
+  } */
 
-  .pers{
-    width: 40%;
-    height: 10%;
-  }
-  
-  img{
-    text-align: 20rem;
-  }
-  
-  
-  .boton{
-    position:absolute;
-    margin-left: -14%;
-    margin-top: 8%;
-     text-decoration: none;
-     padding: 0.5rem 1rem;
-     background: #fff;
-     color: #000;
-     font-size: 14px;
-     transition: 0.4s ease-in-out;
-     font-weight: bold;
-   }
-  
-   .boton:hover{
-    background-color: rgb(255, 0, 0);
-    padding: 0.5rem;
-    background:  url(https://usagif.com/wp-content/uploads/fire-51.gif) center;
-    color: #fff;
-    
-   }
-  
-   .boton2{
-    position:absolute;
-   margin-left: -13%;
-   margin-top: 8%;
-    text-decoration: none;
-    padding: 0.5rem 1rem;
-    background: #fff;
-    color: #000;
-    font-size: 14px;
-    transition: 0.4s ease-in-out;
-    font-weight: bold;
-   }
-  
-   .boton2:hover{
-    background-color: rgb(38, 133, 0);
-    padding: 0.5rem;
-    background:  url(https://i.gifer.com/Y4PM.gif) center;
-    color: #fff;
-    
-   }
-  
-  
-   .boton3{
-    position:absolute;
-   margin-left: -13%;
-   margin-top: 8%;
-    text-decoration: none;
-    padding: 0.5rem 1rem;
-    background: #fff;
-    color: #000;
-    font-size: 14px;
-    transition: 0.4s ease-in-out;
-    font-weight: bold;
-   }
-  
-   .boton3:hover{
-    background-color: rgb(124, 23, 116);
-    padding: 0.5rem;
-    background:  url(https://i.pinimg.com/originals/55/28/b3/5528b3625e15859b3aa3a1238c0b8534.gif);
-    color:#fff;
-    
-   }
-  
-   .boton4{
-    position:absolute;
-   margin-left: -13%;
-   margin-top: 8%;
-    text-decoration: none;
-    padding: 0.5rem 0.5rem;
-    background: #fff;
-    color: #000;
-    font-size: 14px;
-    transition: 0.4s ease-in-out;
-    font-weight: bold;
-   }
-  
-   .boton4:hover{
-    background: url(https://i.gifer.com/3z6p.gif) center;
-    color: #fff;
-    background-color: rgb(2, 65, 56);
-    padding: 0.5rem;
-    
-   }
-  
-   .boton5{
-    position:absolute;
-   margin-left: -13%;
-   margin-top: 8%;
-    text-decoration: none;
-    padding: 0.5rem 1rem;
-    background: #fff;
-    color: #000;
-    font-size: 14px;
-    transition: 0.4s ease-in-out;
-    font-weight: bold;
-   }
-  
-   .boton5:hover{
-    background-color: rgb(13, 190, 81);
-    padding: 0.5rem;
-    color: #fff;
-    background: url(https://phoneky.co.uk/thumbs/screensavers/down/abstract/firegreen_5obo5ynu.gif)  center  ;
-          
-    
-   }
-  
-  
-   .boton6{
-    position:absolute;
-   margin-left: -13%;
-   margin-top: 8%;
-    text-decoration: none;
-    padding: 0.5rem 1rem;
-    background: #fff;
-    color: #000;
-    font-size: 14px;
-    transition: 0.4s ease-in-out;
-    font-weight: bold;
-   }
-  
-   .boton6:hover{
-    background-color: rgb(54, 57, 199);
-    padding: 0.5rem;
-    background: url(https://i.pinimg.com/originals/8b/60/de/8b60de29d88066bffc480939fb09d4e8.gif);
-    color: #fff;
-   }
-  
+.menu1 {
+  align-items: center;
+  display: inline-flex;
+  margin-top: 10%;
+  margin-left: 10%;
+  width: 80vw;
+  height: 5vw;
+  margin-right: 20px;
+}
+
+.menu1 .pers {
+  height: 50vh;
+  align-items: center;
+  flex-grow: 1;
+  object-fit: cover;
+  opacity: 0.8;
+  transition: 0.5s ease;
+  position: relative;
+}
+.menu1 .pers:hover {
+  height: 30vw;
+  opacity: 0.8;
+}
+
+.hola {
+  background-color: rgb(193, 163, 197);
+  height: 60vh;
+  border: 1px solid rgb(168, 168, 189);
+}
+
+.pers {
+  width: 40%;
+  height: 10%;
+}
+
+img {
+  text-align: 20rem;
+}
+
+.boton {
+  position: absolute;
+  margin-left: -14%;
+  margin-top: 8%;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  background: #fff;
+  color: #000;
+  font-size: 14px;
+  transition: 0.4s ease-in-out;
+  font-weight: bold;
+}
+
+.boton:hover {
+  background-color: rgb(255, 0, 0);
+  padding: 0.5rem;
+  background: url(https://usagif.com/wp-content/uploads/fire-51.gif) center;
+  color: #fff;
+}
+
+.boton2 {
+  position: absolute;
+  margin-left: -13%;
+  margin-top: 8%;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  background: #fff;
+  color: #000;
+  font-size: 14px;
+  transition: 0.4s ease-in-out;
+  font-weight: bold;
+}
+
+.boton2:hover {
+  background-color: rgb(38, 133, 0);
+  padding: 0.5rem;
+  background: url(https://i.gifer.com/Y4PM.gif) center;
+  color: #fff;
+}
+
+.boton3 {
+  position: absolute;
+  margin-left: -13%;
+  margin-top: 8%;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  background: #fff;
+  color: #000;
+  font-size: 14px;
+  transition: 0.4s ease-in-out;
+  font-weight: bold;
+}
+
+.boton3:hover {
+  background-color: rgb(124, 23, 116);
+  padding: 0.5rem;
+  background: url(https://i.pinimg.com/originals/55/28/b3/5528b3625e15859b3aa3a1238c0b8534.gif);
+  color: #fff;
+}
+
+.boton4 {
+  position: absolute;
+  margin-left: -13%;
+  margin-top: 8%;
+  text-decoration: none;
+  padding: 0.5rem 0.5rem;
+  background: #fff;
+  color: #000;
+  font-size: 14px;
+  transition: 0.4s ease-in-out;
+  font-weight: bold;
+}
+
+.boton4:hover {
+  background: url(https://i.gifer.com/3z6p.gif) center;
+  color: #fff;
+  background-color: rgb(2, 65, 56);
+  padding: 0.5rem;
+}
+
+.boton5 {
+  position: absolute;
+  margin-left: -13%;
+  margin-top: 8%;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  background: #fff;
+  color: #000;
+  font-size: 14px;
+  transition: 0.4s ease-in-out;
+  font-weight: bold;
+}
+
+.boton5:hover {
+  background-color: rgb(13, 190, 81);
+  padding: 0.5rem;
+  color: #fff;
+  background: url(https://phoneky.co.uk/thumbs/screensavers/down/abstract/firegreen_5obo5ynu.gif)
+    center;
+}
+
+.boton6 {
+  position: absolute;
+  margin-left: -13%;
+  margin-top: 8%;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  background: #fff;
+  color: #000;
+  font-size: 14px;
+  transition: 0.4s ease-in-out;
+  font-weight: bold;
+}
+
+.boton6:hover {
+  background-color: rgb(54, 57, 199);
+  padding: 0.5rem;
+  background: url(https://i.pinimg.com/originals/8b/60/de/8b60de29d88066bffc480939fb09d4e8.gif);
+  color: #fff;
+}

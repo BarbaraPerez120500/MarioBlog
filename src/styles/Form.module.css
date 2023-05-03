@@ -42,17 +42,20 @@
 }
 
 .contenedor {
-  background: url(../img/formmario.jpeg) no-repeat  center;
-  background-size:cover;
-  display:inline-block;
+  background: url(../img/formmario.jpeg) no-repeat center;
+  background-size: cover;
+  display: inline-block;
   flex-direction: column;
-  height: 60vw;
-  width: 50%;
-  
-
-
+  height: 80vh;
+  width: 50vw;
+  border-radius: 1rem;
+  box-shadow: 0.5rem 0.5rem black;
+  transition: all 0.5s ease;
 }
-
+.contenedor:hover {
+  opacity: 0.85;
+  border: solid 0.2rem white;
+}
 .contenedor p {
   color: black;
   justify-content: center;
@@ -68,8 +71,6 @@
   align-items: center;
   justify-content: center;
   padding: 20px;
-  
-  
 }
 
 .input {
@@ -84,6 +85,7 @@
 }
 
 .opinion {
+  color: gray;
   border-radius: 5px;
   font-family: "Catamaran", display;
   padding: 5px 10px;

@@ -15,8 +15,8 @@ function Form() {
       <article className={FormStyle.infovideo}>
         <h1>TRAILER PELICULA 2023</h1>
         <iframe
-          width="1280"
-          height="600"
+          width="800rem"
+          height="400rem"
           src="https://www.youtube.com/embed/8YQM6VlfiqM"
           title="YouTube video player"
           frameborder="0"
@@ -25,16 +25,20 @@ function Form() {
         ></iframe>
 
         <article className={FormStyle.video}>
-          <a href="https://www.youtube.com/watch?v=Yo-fQiQrOtA&t=33s" target="black">
+          <a
+            href="https://www.youtube.com/watch?v=Yo-fQiQrOtA&t=33s"
+            target="black"
+          >
             ver pelicula
           </a>
           <p>
             Mira el video y no te pierdas de lo nuevo de mario bross y nintendo
           </p>
         </article>
-          
+
         <article className={FormStyle.contenedor}>
-          <p>Los comentarios son la voz de nuestra comunidad. ¿Quieres hacerte
+          <p>
+            Los comentarios son la voz de nuestra comunidad. ¿Quieres hacerte
             escuchar? ¡Comenta abajo!
           </p>
           <form onSubmit={handleSubmit} className={FormStyle.formulario}>
