@@ -1,6 +1,6 @@
 .container {
   display: block;
-  height: 20vh;
+  height: 25vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -13,18 +13,21 @@
 }
 
 .footer {
-  display: flex;
+  display: block;
+  margin-top: 20rem;
   justify-content: center;
+
 }
 .footer a {
   border: 1em;
   border-radius: 1em;
-  background-color: red;
+  background-color: rgb(163, 12, 12);
   text-decoration: none;
   box-sizing: border-box;
   text-align: center;
   padding: 0.5rem;
   color: snow;
+ 
 }
 
 .video h1 {

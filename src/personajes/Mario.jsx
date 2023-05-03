@@ -83,7 +83,7 @@ const Mario = () => {
    <p>La saga de Mario Bros ha evolucionado con el tiempo, introduciendo nuevos personajes y mundos mágicos. También ha dado lugar a películas, programas de televisión y muchos otros productos, pero lo que nunca ha cambiado es la emoción y la aventura que se siente al jugar un juego de Mario.</p>
 
    <p>En resumen, la historia de Mario Bros es una emocionante y llena de acción, llena de peligros, enemigos y desafíos. La saga ha cautivado a jugadores de todo el mundo durante décadas, y sigue siendo uno de los juegos más queridos y populares de todos los tiempos.</p>
-   <img src={tort} style={{ marginLeft: "40%" }}/>
+   
 
    <form onSubmit={showStoryOne}>
    <button onClick={() => audioluigi(vida)} >REGRESA</button></form>
@@ -118,7 +118,7 @@ const Mario = () => {
    <p>Mario ha aparecido en más de 200 juegos diferentes desde su debut en 1981, lo que lo convierte en uno de los personajes de videojuegos más populares y reconocidos del mundo.</p>
 
 
-   <img src={boo} style={{ marginLeft: "40%" }} />
+   
 
 
  

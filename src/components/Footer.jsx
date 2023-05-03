@@ -4,6 +4,7 @@ import FooterStyle from "../styles/Footer.module.css";
 function Footer() {
   return (
     <>
+          <section>
       <section className={FooterStyle.container}>
         <footer className={FooterStyle.footer}>
           <a href=""> Servicio al cliente </a>
@@ -15,6 +16,7 @@ function Footer() {
         <p>Diseñado por MARScript</p>
         <p>copyright. © 2023</p>
       </section>
+  </section>       
     </>
   );
 }

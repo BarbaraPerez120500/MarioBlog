@@ -25,17 +25,16 @@ function Form() {
         ></iframe>
 
         <article className={FormStyle.video}>
-          <a href="https://www.youtube.com/watch?v=Yo-fQiQrOtA&t=33s">
+          <a href="https://www.youtube.com/watch?v=Yo-fQiQrOtA&t=33s" target="black">
             ver pelicula
           </a>
           <p>
             Mira el video y no te pierdas de lo nuevo de mario bross y nintendo
           </p>
         </article>
-
+          
         <article className={FormStyle.contenedor}>
-          <p>
-            Los comentarios son la voz de nuestra comunidad. ¿Quieres hacerte
+          <p>Los comentarios son la voz de nuestra comunidad. ¿Quieres hacerte
             escuchar? ¡Comenta abajo!
           </p>
           <form onSubmit={handleSubmit} className={FormStyle.formulario}>

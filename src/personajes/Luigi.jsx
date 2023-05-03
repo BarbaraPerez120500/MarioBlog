@@ -106,10 +106,10 @@ const bowserx = function(e){
 
 
         <img className='pers'src={img2} onClick={() => audioluigi(Saludoluigi) } height={300}/>
+        
         <form onSubmit={luigix}>
         <button href="#" className='boton2'onClick={() => audioluigi(Saludoluigi) }>CONOCE A LUIGI</button>
         </form>
-
 
         <img className='pers'src={princesa} onClick={() => audioluigi(Saludoprincesa)} height={300}/>
         <form onSubmit={rosado}>

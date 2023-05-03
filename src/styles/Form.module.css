@@ -42,19 +42,24 @@
 }
 
 .contenedor {
-  background: url(../img/descarga.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: flex;
+  background: url(../img/formmario.jpeg) no-repeat  center;
+  background-size:cover;
+  display:inline-block;
   flex-direction: column;
-  justify-content: center;
-  height: 35%;
+  height: 60vw;
+  width: 50%;
+  
+
+
 }
 
 .contenedor p {
   color: black;
+  justify-content: center;
+  margin-top: 2rem;
   text-align: center;
   font-size: "Catamaran", sans-serif;
+  padding: 0.5rem;
 }
 
 .formulario {
@@ -62,7 +67,9 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 30px;
+  padding: 20px;
+  
+  
 }
 
 .input {
@@ -71,7 +78,7 @@
   padding: 5px 10px;
   border-radius: 5px;
   font-family: "Catamaran", display;
-  width: 50rem;
+  width: 30rem;
   height: 3rem;
   margin-bottom: 15px;
 }
@@ -80,14 +87,15 @@
   border-radius: 5px;
   font-family: "Catamaran", display;
   padding: 5px 10px;
-  width: 50rem;
+  width: 30rem;
   height: 10rem;
+  margin-top: 1rem;
 }
 
 .boton {
   background-color: snow;
   color: black;
-  margin: 20px;
+  margin: 1rem;
   padding: 5px 20px;
   border: none;
   border-radius: 5px;
