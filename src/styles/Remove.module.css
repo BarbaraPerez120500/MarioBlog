@@ -2,7 +2,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  left: 20rem;
 }
 
 .remove button {
@@ -12,4 +11,6 @@
   padding: 0.5rem 2.5rem;
   font-weight: 700;
   font-family: "Oxanium", display;
+  position: relative;
+  right: 3rem;
 }

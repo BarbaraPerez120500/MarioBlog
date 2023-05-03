@@ -1,34 +1,22 @@
-
-
-
+.container {
+  display: block;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
 .video iframe {
   display: flex;
   justify-content: center;
-}
-
-.infovideo {
-  text-align: center;
-  justify-content: center;
-  line-height: 4rem;
-}
-
-.infovideo h1 {
-  text-align: center;
-  font-size: 2.5rem;
 }
 
 .footer {
   display: flex;
   justify-content: center;
 }
-
-
-.infovideo p {
-  color: black;
-  text-align: center;
-}
-
-.infovideo a {
+.footer a {
   border: 1em;
   border-radius: 1em;
   background-color: red;
@@ -37,7 +25,6 @@
   text-align: center;
   padding: 0.5rem;
   color: snow;
-  
 }
 
 .video h1 {
@@ -51,4 +38,3 @@
   align-items: center;
   font-size: 1.5rem;
 }
-

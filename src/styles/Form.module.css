@@ -1,0 +1,98 @@
+.container {
+  height: 125vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 4rem;
+  margin-top: 10rem;
+  gap: 2rem;
+}
+
+.infovideo {
+  text-align: center;
+  justify-content: center;
+  line-height: 4rem;
+}
+.infovideo iframe {
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+
+.infovideo h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+}
+
+.infovideo p {
+  color: black;
+  text-align: center;
+}
+
+.infovideo a {
+  border: 1em;
+  border-radius: 1em;
+  background-color: red;
+  text-decoration: none;
+  box-sizing: border-box;
+  text-align: center;
+  padding: 0.5rem;
+  color: snow;
+}
+
+.contenedor {
+  background: url(../img/descarga.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 35%;
+}
+
+.contenedor p {
+  color: black;
+  text-align: center;
+  font-size: "Catamaran", sans-serif;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+
+.input {
+  color: gray;
+  align-self: center;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-family: "Catamaran", display;
+  width: 50rem;
+  height: 3rem;
+  margin-bottom: 15px;
+}
+
+.opinion {
+  border-radius: 5px;
+  font-family: "Catamaran", display;
+  padding: 5px 10px;
+  width: 50rem;
+  height: 10rem;
+}
+
+.boton {
+  background-color: snow;
+  color: black;
+  margin: 20px;
+  padding: 5px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-family: "Tilt Neon";
+  font-size: 15px;
+}
