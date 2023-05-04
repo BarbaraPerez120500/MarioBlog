@@ -7,11 +7,11 @@ function Footer() {
           <section>
       <section className={FooterStyle.container}>
         <footer className={FooterStyle.footer}>
-          <a href=""> Servicio al cliente </a>
+          {/* <a href=""> Servicio al cliente </a>
           <i class="fa-brands fa-facebook"></i>
           <i class="fa-brands fa-twitter"></i>
           <i class="fa-brands fa-youtube"></i>
-          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-instagram"></i> */}
         </footer>
         <p>Diseñado por MARScript</p>
         <p>copyright. © 2023</p>

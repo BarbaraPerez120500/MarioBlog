@@ -1,84 +1,77 @@
-.parrafouno{
-    background: url(https://i.pinimg.com/564x/fc/ad/5c/fcad5ce5643c8a325fe0bebad9b4f654.jpg);
-    background-size: cover;
-    align-content: center;
-    color: aliceblue;
-    width: 50%;
-    height: 50%;
-    margin-left: 10rem;
-    border-radius: 1rem;
-    position:sticky;
-    }
-  
-    .parrafodos{
-      background: url(https://i.pinimg.com/564x/fc/ad/5c/fcad5ce5643c8a325fe0bebad9b4f654.jpg);
-      background-size: cover;
-      align-content: center;
-      color: aliceblue;
-      width: 50%;
-      height: 50%;
-      margin-left: 38rem;
-      border-radius: 1rem solid ;
-      }
-  
-      
-  
-   
-   .fondo{
-    background-color:  rgb(229, 229, 145);
-    cursor: url(img/Banzai.png), auto;
-    display: fixed;
-    width: 98.6%;
-    display:flex;
-    padding: 0.5rem;
-    border: 0.1rem solid black;
-  
-   }
-
-.pr{
-    background: url(https://i.pinimg.com/564x/fc/ad/5c/fcad5ce5643c8a325fe0bebad9b4f654.jpg);
-    background-size: cover;
-    align-content: center;
-    color: aliceblue;
-    width: 80%;
-    height: 80%;
-    margin-top: -2%;
-    border-radius: 1rem;
-    margin-left: 5%;
+.parrafouno {
+  background: url(https://i.pinimg.com/564x/fc/ad/5c/fcad5ce5643c8a325fe0bebad9b4f654.jpg);
+  background-size: cover;
+  align-content: center;
+  color: aliceblue;
+  width: 50%;
+  height: 50%;
+  margin-left: 10rem;
+  border-radius: 1rem;
+  position: sticky;
 }
 
-.pr1{
-    background: url(https://i.pinimg.com/564x/fc/ad/5c/fcad5ce5643c8a325fe0bebad9b4f654.jpg);
-    background-size: cover;
-    align-content: center;
-    color: aliceblue;
-    width: 80%;
-    height: 80%;
-    margin-top: -2%;
-    margin-left: 17%;
-
+.parrafodos {
+  background: url(https://i.pinimg.com/564x/fc/ad/5c/fcad5ce5643c8a325fe0bebad9b4f654.jpg);
+  background-size: cover;
+  align-content: center;
+  color: aliceblue;
+  width: 50%;
+  height: 50%;
+  margin-left: 38rem;
+  border-radius: 1rem solid;
 }
 
-.pr2{
-    background: url(https://i.pinimg.com/564x/fc/ad/5c/fcad5ce5643c8a325fe0bebad9b4f654.jpg);
-    background-size: cover;
-    align-content: center;
-    color: aliceblue;
-    width: 80%;
-    height: 80%;
-    margin-top: -2%;
-    margin-left: 20%;
-
+.fondo {
+  /* background-color:  rgb(229, 229, 145); */
+  cursor: url(img/Banzai.png), auto;
+  display: fixed;
+  width: 98.6%;
+  display: flex;
+  padding: 0.5rem;
+  /* border: 0.1rem solid black; */
 }
 
-.pr3{
-    background: url(https://i.pinimg.com/564x/fc/ad/5c/fcad5ce5643c8a325fe0bebad9b4f654.jpg);
-    background-size: cover;
-    align-content: center;
-    color: aliceblue;
-    width: 80%;
-    height: 80%;
-    margin-top: -2%;
-    margin-left: 20%;
+.pr {
+  background: url(https://i.pinimg.com/564x/fc/ad/5c/fcad5ce5643c8a325fe0bebad9b4f654.jpg);
+  background-size: cover;
+  align-content: center;
+  color: aliceblue;
+  width: 80%;
+  height: 80%;
+  margin-top: -2%;
+  border-radius: 1rem;
+  margin-left: 5%;
+}
 
+.pr1 {
+  background: url(https://i.pinimg.com/564x/fc/ad/5c/fcad5ce5643c8a325fe0bebad9b4f654.jpg);
+  background-size: cover;
+  align-content: center;
+  color: aliceblue;
+  width: 80%;
+  height: 80%;
+  margin-top: -2%;
+  margin-left: 17%;
+}
+
+.pr2 {
+  background: url(https://i.pinimg.com/564x/fc/ad/5c/fcad5ce5643c8a325fe0bebad9b4f654.jpg);
+  background-size: cover;
+  align-content: center;
+  color: aliceblue;
+  width: 80%;
+  height: 80%;
+  margin-top: -2%;
+  margin-left: 20%;
+}
+
+.pr3 {
+  background: url(https://i.pinimg.com/564x/fc/ad/5c/fcad5ce5643c8a325fe0bebad9b4f654.jpg);
+  background-size: cover;
+  align-content: center;
+  color: aliceblue;
+  width: 80%;
+  height: 80%;
+  margin-top: -2%;
+  margin-left: 20%;
 }

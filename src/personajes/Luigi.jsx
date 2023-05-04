@@ -85,8 +85,9 @@ const Luigi = () => {
   };
 
   return (
+    
     <>
-      <section className="hola">
+      <section className="hola" id="personajes">
         <h1 className="tituloh1">PERSONAJES</h1>
 
         <article className="menu1">

@@ -4,7 +4,7 @@ import SearchStyle from "../styles/Search.module.css";
 const Search = () => {
   const { search, setSearch } = useContext(SearchContext);
   return (
-    <section className={SearchStyle.container}>
+    <section className={SearchStyle.container} id="Noticias">
       <input
         type="text"
         className={SearchStyle.search}

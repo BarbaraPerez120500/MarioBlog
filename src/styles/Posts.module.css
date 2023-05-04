@@ -18,6 +18,13 @@
   color: snow;
   border-radius: 1rem;
 }
+
+.gallery article:hover {
+  opacity: 0.85;
+  border: solid 0.25rem white;
+  scale: 1.2;
+}
+
 .gallery article h2 {
   font-family: 1rem;
   padding: 1rem;

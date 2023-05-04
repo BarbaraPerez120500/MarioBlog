@@ -1,5 +1,5 @@
 .container {
-  height: 125vh;
+  height: 145vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -28,6 +28,7 @@
 .infovideo p {
   color: black;
   text-align: center;
+  font-size: 1.5rem;
 }
 
 .infovideo a {
@@ -51,6 +52,7 @@
   border-radius: 1rem;
   box-shadow: 0.5rem 0.5rem black;
   transition: all 0.5s ease;
+  margin-top: 2rem;
 }
 .contenedor:hover {
   opacity: 0.85;
@@ -63,6 +65,7 @@
   text-align: center;
   font-size: "Catamaran", sans-serif;
   padding: 0.5rem;
+  line-height: 0.5rem;
 }
 
 .formulario {

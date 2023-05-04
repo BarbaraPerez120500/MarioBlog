@@ -32,7 +32,7 @@ const Mario = () => {
 
   return (
     <>
-      <articule className="fondo">
+      <articule className="fondo" id="Historia">
         <h2 className="tituloh2">MARIO HISTORIA</h2>
         <section className="wrapper">
           <section className="card">

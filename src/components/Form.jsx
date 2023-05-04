@@ -11,7 +11,7 @@ function Form() {
   };
 
   return (
-    <section className={FormStyle.container}>
+    <section className={FormStyle.container} id="Pelicula">
       <article className={FormStyle.infovideo}>
         <h1>TRAILER PELICULA 2023</h1>
         <iframe
@@ -37,10 +37,8 @@ function Form() {
         </article>
 
         <article className={FormStyle.contenedor}>
-          <p>
-            Los comentarios son la voz de nuestra comunidad. ¿Quieres hacerte
-            escuchar? ¡Comenta abajo!
-          </p>
+          <p> Los comentarios son la voz de nuestra comunidad. </p>
+          <p>¿Quieres hacerte escuchar? ¡Comenta abajo!</p>
           <form onSubmit={handleSubmit} className={FormStyle.formulario}>
             <label className={FormStyle.nombre}>
               <input

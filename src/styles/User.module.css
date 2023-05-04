@@ -37,6 +37,10 @@
   border-radius: 1rem;
 }
 
+.activate button:hover {
+  background-color: #1d3d97;
+}
+
 .login {
   position: fixed;
   top: 0;

@@ -5,10 +5,10 @@ import User from "./User";
 const Navbar = function () {
   return (
     <nav className={NavbarStyle.menu}>
-      <a href="#">Personajes</a>
-      <a href="#">Historia</a>
-      <a href="#">Noticias</a>
-      <a href="#">Pelicula</a>
+      <a href="#personajes">Personajes</a>
+      <a href="#Historia">Historia</a>
+      <a href="#Noticias">Noticias</a>
+      <a href="#Pelicula">Pelicula</a>
       <User />
     </nav>
   );
