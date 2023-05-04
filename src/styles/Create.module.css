@@ -40,4 +40,9 @@
   font-family: "Catamaran", display;
   display: block;
   margin: 1rem auto;
+  border-radius: 1rem;
+}
+
+.create button:hover{
+  background-color: #1d3d97;
 }

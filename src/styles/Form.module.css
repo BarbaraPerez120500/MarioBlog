@@ -25,6 +25,7 @@
   text-align: center;
   font-size: 2.5rem;
   margin-bottom: 3rem;
+  margin-top: 10rem;
 }
 
 .infovideo p {
@@ -43,6 +44,11 @@
   padding: 0.5rem;
   color: snow;
 }
+
+.infovideo a:hover{
+  background-color: #1d3d97;
+}
+
 
 .contenedor {
   background: url(../img/formmario.jpeg) no-repeat center;

@@ -10,7 +10,13 @@
   text-transform: uppercase;
   padding: 0.5rem 2.5rem;
   font-weight: 700;
-  font-family: "Oxanium", display;
+  font-family: "Catamaran", display;
   position: relative;
   right: 3rem;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.remove button:hover{
+  background-color: #1d3d97;
 }

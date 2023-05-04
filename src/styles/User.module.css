@@ -17,6 +17,11 @@
   outline: none;
   width: 7rem;
   cursor: pointer;
+  border-radius: 1rem;
+}
+
+.logout button:hover{
+  background-color: #1d3d97;
 }
 
 .activate button {
@@ -91,6 +96,11 @@
   font-weight: 700;
   font-family: "Tilt Neon", display;
   border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.login button[type="submit"]:hover{
+  background-color: #e02b20;
 }
 
 .login button[type="button"] {
@@ -106,4 +116,8 @@
   width: 7rem;
   font-size: 1rem;
   border-radius: 1rem;
+}
+
+.login button[type="button"]:hover{
+  background-color: #e02b20
 }
