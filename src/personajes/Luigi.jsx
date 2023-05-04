@@ -86,7 +86,7 @@ const Luigi = () => {
 
   return (
     <>
-      <section className="hola" id="personajes">
+      <section className="hola" id="Personajes">
         <h1 className="tituloh1">PERSONAJES</h1>
 
         <article className="menu1">
@@ -191,16 +191,15 @@ const Luigi = () => {
       </section>
 
       {show == 1 ? (
-        <article className="pr">
-          <h1 className="tituloh1">Mario:</h1>
+        <article className="pr1">
+          <h1 className="tituloh3">Mario</h1>
 
-          <p>
-            {" "}
-            es el personaje principal y el héroe de la serie de juegos. Es un
+          <p className="descripcion">
+            Es el personaje principal y el héroe de la serie de juegos. Es un
             fontanero italiano con un bigote grueso y viste una gorra y un peto
             azul. Mario es conocido por su capacidad para saltar, correr y
-            aplastar enemigos. También tiene una variedad de power-ups, como la
-            Flor de Fuego y la Estrella, que le dan habilidades especiales.
+            aplastar enemigos. También tiene una variedad de power-ups como la
+            Flor de Fuego y la Estrella, las cuales le dan habilidades especiales.
           </p>
 
           <form onSubmit={mariox}>
@@ -212,11 +211,11 @@ const Luigi = () => {
       ) : null}
 
       {show == 2 ? (
-        <article className="pr">
-          <h1 className="tituloh1">Luigi:</h1>
+        <article className="pr2">
+          <h1 className="tituloh3">Luigi</h1>
 
-          <p>
-            es el hermano de Mario y su fiel compañero. Es similar a Mario en
+          <p className="descripcion">
+            Es el hermano de Mario y su fiel compañero. Es similar a Mario en
             términos de apariencia, pero es más alto y delgado. Luigi es
             conocido por ser un poco tímido y nervioso, pero también es muy
             valiente y leal a su hermano.
@@ -230,12 +229,11 @@ const Luigi = () => {
       ) : null}
 
       {show == 3 ? (
-        <article className="pr">
-          <h1 className="tituloh1">Princesa Peach:</h1>
-          <p>
-            {" "}
-            es la princesa del Reino Champiñón y una de las protagonistas de la
-            serie. Es conocida por su belleza y su habilidad para gobernar su
+        <article className="pr3">
+          <h1 className="tituloh3">Peach</h1>
+          <p className="descripcion">
+            Es la princesa del Reino Champiñón y una de las protagonistas de la
+            película. Es conocida por su belleza y su habilidad para gobernar su
             reino con sabiduría y gracia. Peach es a menudo secuestrada por el
             villano Bowser y Mario tiene que rescatarla.
           </p>
@@ -248,13 +246,13 @@ const Luigi = () => {
       ) : null}
 
       {show == 4 ? (
-        <article className="pr1">
-          <h1 className="tituloh1">Bowser: </h1>
-          <p>
-            es el principal antagonista de la serie de Mario Bros. Es una gran
+        <article className="pr4">
+          <h1 className="tituloh3">Bowser </h1>
+          <p className="descripcion">
+            Es el principal antagonista de la serie de Mario Bros. Es una gran
             tortuga con dientes afilados y aliento de fuego. Bowser es conocido
             por secuestrar a la Princesa Peach y tratar de apoderarse del Reino
-            Champiñón. A menudo se enfrenta a Mario en combate..
+            Champiñón. A menudo se enfrenta a Mario.
           </p>
           <form onSubmit={bowserx}>
             <button className="botones" onClick={() => audioluigi(vida)}>
@@ -265,13 +263,12 @@ const Luigi = () => {
       ) : null}
 
       {show == 5 ? (
-        <article className="pr2">
-          <h1 className="tituloh1">Yoshi:</h1>
-          <p>
-            {" "}
-            es una criatura amistosa y leal que ayuda a Mario en su misión. Es
+        <article className="pr5">
+          <h1 className="tituloh3">Yoshi:</h1>
+          <p className="descripcion">
+            Es una criatura amistosa y leal que ayuda a Mario en su misión. Es
             un dinosaurio de color verde con una lengua larga y flexible. Yoshi
-            es conocido por su habilidad para comer enemigos y convertirlos en
+            es conocido por su habilidad de comer enemigos y convertirlos en
             huevos.
           </p>
           <form onSubmit={yoshix}>
@@ -283,11 +280,10 @@ const Luigi = () => {
       ) : null}
 
       {show == 6 ? (
-        <article className="pr3">
-          <h1 className="tituloh1">Toad:</h1>
-          <p>
-            {" "}
-            es un personaje amigable que vive en el Reino Champiñón. Es un
+        <article className="pr6">
+          <h1 className="tituloh3">Toad:</h1>
+          <p className="descripcion">
+            Es un personaje amigable que vive en el Reino Champiñón. Es un
             pequeño hongo con una cabeza grande y redonda. Toad a menudo ayuda a
             Mario en su misión, proporcionándole consejos y objetos útiles.
           </p>

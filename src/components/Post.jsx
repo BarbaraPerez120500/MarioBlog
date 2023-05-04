@@ -14,7 +14,7 @@ const Post = () => {
             }}
             className={PostStyle.close}
           >
-            <button>close</button>
+            <button>CLOSE</button>
           </form>
           <header className={PostStyle.header}>
             <h2>{post.title}</h2>

@@ -11,7 +11,7 @@ const Remove = ({ id }) => {
       }}
       className={`${RemoveStyle.remove}`}
     >
-      <button>delete</button>
+      <button>DELETE</button>
     </form>
   );
 };
