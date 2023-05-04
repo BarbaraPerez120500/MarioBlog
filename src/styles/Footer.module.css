@@ -1,12 +1,11 @@
 .container {
   display: block;
-  height: 45vh;
+  height: 20vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 1rem;
-  margin-bottom: 5rem;
+  gap: 0.5rem;
 }
 
 .video iframe {
@@ -16,7 +15,7 @@
 
 .footer {
   display: block;
-  margin-top: 20rem;
+  margin-top: 35rem;
   justify-content: center;
 }
 
@@ -29,7 +28,6 @@
   text-align: center;
   padding: 0.5rem;
   color: snow;
- 
 }
 
 .video h1 {
