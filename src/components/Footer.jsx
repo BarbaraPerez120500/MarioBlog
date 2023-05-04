@@ -4,7 +4,7 @@ import FooterStyle from "../styles/Footer.module.css";
 function Footer() {
   return (
     <>
-          <section>
+    <section>
       <section className={FooterStyle.container}>
         <footer className={FooterStyle.footer}>
           {/* <a href=""> Servicio al cliente </a>
@@ -14,10 +14,10 @@ function Footer() {
           <i class="fa-brands fa-instagram"></i> */}
         </footer>
         <p>Diseñado por MARScript</p>
-        <p>copyright. © 2023</p>
+        <p>Copyright © 2023</p>
       </section>
-  </section>       
-    </>
+    </section>       
+   </>
   );
 }
 

@@ -11,9 +11,9 @@ function Form() {
   };
 
   return (
-    <section className={FormStyle.container} id="Pelicula">
+    <section className={FormStyle.container}>
       <article className={FormStyle.infovideo}>
-        <h1>TRAILER PELICULA 2023</h1>
+        <h1 id="Pelicula">TRAILER PELÍCULA 2023</h1>
         <iframe
           src="https://www.youtube.com/embed/8YQM6VlfiqM"
           title="YouTube video player"
@@ -27,16 +27,15 @@ function Form() {
             href="https://www.youtube.com/watch?v=Yo-fQiQrOtA&t=33s"
             target="black"
           >
-            ver pelicula
+            ver película
           </a>
           <p>
-            Mira el video y no te pierdas de lo nuevo de mario bross y nintendo
+            Mira el video y no te pierdas de lo nuevo de Mario Bros y Nintendo
           </p>
         </article>
 
         <article className={FormStyle.contenedor}>
-          <p> Los comentarios son la voz de nuestra comunidad. </p>
-          <p>¿Quieres hacerte escuchar? ¡Comenta abajo!</p>
+          <p> Los comentarios son la voz de nuestra comunidad. ¿Quieres hacerte escuchar? ¡Comenta abajo!</p>
           <form onSubmit={handleSubmit} className={FormStyle.formulario}>
             <label className={FormStyle.nombre}>
               <input
