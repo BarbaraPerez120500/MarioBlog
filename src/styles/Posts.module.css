@@ -17,6 +17,7 @@
   flex-direction: column;
   color: snow;
   border-radius: 1rem;
+  transition: all 1s ease;
 }
 
 .gallery article:hover {

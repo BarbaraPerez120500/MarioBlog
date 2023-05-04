@@ -17,6 +17,8 @@
 .infovideo iframe {
   margin-bottom: 2rem;
   margin-top: 1rem;
+  width: 70rem;
+  height: 35rem;
 }
 
 .infovideo h1 {
@@ -82,7 +84,7 @@
   padding: 5px 10px;
   border-radius: 5px;
   font-family: "Catamaran", display;
-  width: 30rem;
+  width: 40vw;
   height: 3rem;
   margin-bottom: 15px;
 }
@@ -92,7 +94,7 @@
   border-radius: 5px;
   font-family: "Catamaran", display;
   padding: 5px 10px;
-  width: 30rem;
+  width: 40vw;
   height: 10rem;
   margin-top: 1rem;
 }
@@ -108,4 +110,55 @@
   text-transform: uppercase;
   font-family: "Tilt Neon";
   font-size: 15px;
+}
+
+@media (max-width: 1147px) {
+  .infovideo iframe {
+    width: 40rem;
+    height: 20rem;
+  }
+  .infovideo p {
+    color: black;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+
+  .contenedor {
+    height: 80vh;
+    width: 80vw;
+    border-radius: 1rem;
+    box-shadow: 0.5rem 0.5rem black;
+    transition: all 0.5s ease;
+    margin-top: 2rem;
+  }
+
+  .contenedor p {
+    color: black;
+    justify-content: center;
+    margin-top: 2rem;
+    text-align: center;
+    font-size: "Catamaran", sans-serif;
+    padding: 0.5rem;
+    line-height: 0.5rem;
+  }
+
+  .input {
+    color: gray;
+    align-self: center;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-family: "Catamaran", display;
+    width: 70vw;
+    height: 3rem;
+    margin-bottom: 15px;
+  }
+  .opinion {
+    color: gray;
+    border-radius: 5px;
+    font-family: "Catamaran", display;
+    padding: 5px 10px;
+    width: 70vw;
+    height: 10rem;
+    margin-top: 1rem;
+  }
 }

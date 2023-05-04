@@ -8,19 +8,20 @@
   box-sizing: border-box;
 }
 
-html{
+html {
   scroll-behavior: smooth;
 }
 
 body {
   min-height: 100vh;
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   font-family: "Tilt Neon", sans-serif;
   background-color: #049cd8;
-  width: 98vw;
+  width: 100vw;
+
   /* background: url(https://i.pinimg.com/564x/0c/39/ff/0c39ff7a5a7561819709f1b22e5f823e.jpg)  center right  ; */
 }
 

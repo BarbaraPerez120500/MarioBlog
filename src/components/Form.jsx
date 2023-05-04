@@ -15,8 +15,6 @@ function Form() {
       <article className={FormStyle.infovideo}>
         <h1>TRAILER PELICULA 2023</h1>
         <iframe
-          width="800rem"
-          height="400rem"
           src="https://www.youtube.com/embed/8YQM6VlfiqM"
           title="YouTube video player"
           frameborder="0"

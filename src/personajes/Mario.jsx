@@ -116,7 +116,9 @@ const Mario = () => {
           </p>
 
           <form onSubmit={showStoryOne}>
-            <button onClick={() => audioluigi(vida)}>REGRESA</button>
+            <button className="botones" onClick={() => audioluigi(vida)}>
+              REGRESA
+            </button>
           </form>
         </article>
       ) : null}
@@ -187,7 +189,9 @@ const Mario = () => {
           </p>
 
           <form onSubmit={showStoryTwo}>
-            <button onClick={() => audioluigi(vida)}>REGRESA</button>
+            <button className="botones" onClick={() => audioluigi(vida)}>
+              REGRESA
+            </button>
           </form>
         </article>
       ) : null}

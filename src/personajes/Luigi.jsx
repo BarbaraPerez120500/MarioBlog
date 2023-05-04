@@ -85,7 +85,6 @@ const Luigi = () => {
   };
 
   return (
-    
     <>
       <section className="hola" id="personajes">
         <h1 className="tituloh1">PERSONAJES</h1>
@@ -205,7 +204,9 @@ const Luigi = () => {
           </p>
 
           <form onSubmit={mariox}>
-            <button onClick={() => audioluigi(vida)}>regresar </button>
+            <button className="botones" onClick={() => audioluigi(vida)}>
+              regresar{" "}
+            </button>
           </form>
         </article>
       ) : null}
@@ -221,7 +222,9 @@ const Luigi = () => {
             valiente y leal a su hermano.
           </p>
           <form onSubmit={luigix}>
-            <button onClick={() => audioluigi(vida)}>regresar </button>
+            <button className="botones" onClick={() => audioluigi(vida)}>
+              regresar{" "}
+            </button>
           </form>
         </article>
       ) : null}
@@ -237,7 +240,9 @@ const Luigi = () => {
             villano Bowser y Mario tiene que rescatarla.
           </p>
           <form onSubmit={rosado}>
-            <button onClick={() => audioluigi(vida)}>regresar </button>
+            <button className="botones" onClick={() => audioluigi(vida)}>
+              regresar{" "}
+            </button>
           </form>
         </article>
       ) : null}
@@ -252,7 +257,9 @@ const Luigi = () => {
             Champiñón. A menudo se enfrenta a Mario en combate..
           </p>
           <form onSubmit={bowserx}>
-            <button onClick={() => audioluigi(vida)}>regresar </button>
+            <button className="botones" onClick={() => audioluigi(vida)}>
+              regresar{" "}
+            </button>
           </form>
         </article>
       ) : null}
@@ -268,7 +275,9 @@ const Luigi = () => {
             huevos.
           </p>
           <form onSubmit={yoshix}>
-            <button onClick={() => audioluigi(vida)}>regresar </button>
+            <button className="botones" onClick={() => audioluigi(vida)}>
+              regresar{" "}
+            </button>
           </form>
         </article>
       ) : null}
@@ -283,7 +292,9 @@ const Luigi = () => {
             Mario en su misión, proporcionándole consejos y objetos útiles.
           </p>
           <form onSubmit={toadx}>
-            <button onClick={() => audioluigi(vida)}>regresar </button>
+            <button className="botones" onClick={() => audioluigi(vida)}>
+              regresar{" "}
+            </button>
           </form>
         </article>
       ) : null}

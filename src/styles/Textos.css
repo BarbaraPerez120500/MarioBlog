@@ -8,6 +8,9 @@
   margin-left: 10rem;
   border-radius: 1rem;
   position: sticky;
+  padding: 1rem;
+  line-height: 2rem;
+  border-radius: 1rem;
 }
 
 .parrafodos {
@@ -19,6 +22,22 @@
   height: 50%;
   margin-left: 38rem;
   border-radius: 1rem solid;
+  padding: 1rem;
+  line-height: 2rem;
+  border-radius: 1rem;
+}
+
+.botones {
+  background-color: #ff0004;
+  color: white;
+  padding: 0.5rem 0.5rem;
+  text-align: center;
+  display: inline-block;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  width: 8rem;
+  text-decoration: none;
 }
 
 .fondo {
@@ -41,6 +60,8 @@
   margin-top: -2%;
   border-radius: 1rem;
   margin-left: 5%;
+  border-radius: 1rem;
+  padding: 1rem;
 }
 
 .pr1 {
@@ -52,6 +73,8 @@
   height: 80%;
   margin-top: -2%;
   margin-left: 17%;
+  border-radius: 1rem;
+  padding: 1rem;
 }
 
 .pr2 {
@@ -63,6 +86,8 @@
   height: 80%;
   margin-top: -2%;
   margin-left: 20%;
+  border-radius: 1rem;
+  padding: 1rem;
 }
 
 .pr3 {
@@ -74,4 +99,6 @@
   height: 80%;
   margin-top: -2%;
   margin-left: 20%;
+  border-radius: 1rem;
+  padding: 1rem;
 }
